@@ -1,0 +1,9 @@
+{
+  "name": "vendor_78b7cd0334dbb593d828",
+  "content": {
+    "./a.js": 1,
+    "./b.js": 2,
+    "./c.js": 3,
+    "./d.js": 4
+  }
+}
