@@ -2,23 +2,41 @@ var path = require('path');
 var webpack = require('webpack');
 
 var exp = {};
+var loaders = [
+	{
+		test: /\.jsx?$/,
+		exclude: /node_modules/,
+		loader: 'babel',
+		query: {
+			presets: ['es2015', 'react'],
+			cacheDirectory: true
+		}
+	}
+];
 
 if (process.env.MAKE_DLL) {
 	exp = {
 		entry: {
-			vendor: ['./a', './b', './c', './d']
+			vendor: [
+				'react',
+				'react-dom',
+				'lodash'
+			]
 		},
 		output: {
 			path: path.join(__dirname, 'dll'),
 			filename: '[name].js',
-			library: '[name]_[hash]'
+			library: '[name]_dll'
 		},
 		plugins: [
 			new webpack.DllPlugin({
 				path: path.join(__dirname, 'dll', 'manifest.json'),
-				name: '[name]_[hash]'
+				name: '[name]_dll'
 			})
-		]
+		],
+		module: {
+			loaders: loaders
+		}
 	};
 } else {
 	exp = {
@@ -29,10 +47,13 @@ if (process.env.MAKE_DLL) {
 		},
 		plugins: [
 			new webpack.DllReferencePlugin({
-				scope: 'vendor',
+				context: '.',
 				manifest: require('./dll/manifest.json')
 			})
-		]
+		],
+		module: {
+			loaders: loaders
+		}
 	};
 }
 

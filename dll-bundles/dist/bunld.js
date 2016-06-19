@@ -44,11 +44,31 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	console.log(__webpack_require__(1));
-	console.log(__webpack_require__(3));
-	console.log(__webpack_require__(4));
-	console.log(__webpack_require__(5));
+	'use strict';
 
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _reactDom = __webpack_require__(3);
+
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+
+	var _lodash = __webpack_require__(4);
+
+	var _lodash2 = _interopRequireDefault(_lodash);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	_reactDom2.default.render(_react2.default.createElement(
+	  'div',
+	  null,
+	  _react2.default.createElement(
+	    'span',
+	    null,
+	    'Hello World'
+	  )
+	), document.getElementById('app'));
 
 /***/ },
 /* 1 */
@@ -60,25 +80,19 @@
 /* 2 */
 /***/ function(module, exports) {
 
-	module.exports = vendor_78b7cd0334dbb593d828;
+	module.exports = vendor_dll;
 
 /***/ },
 /* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = (__webpack_require__(2))(2);
+	module.exports = (__webpack_require__(2))(38);
 
 /***/ },
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
-	module.exports = (__webpack_require__(2))(3);
-
-/***/ },
-/* 5 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = (__webpack_require__(2))(4);
+	module.exports = (__webpack_require__(2))(168);
 
 /***/ }
 /******/ ]);
