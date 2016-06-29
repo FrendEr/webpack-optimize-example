@@ -1,6 +1,4 @@
-# webpack.optimize.DedupePlugin
-
-> 代码去重
+# DedupePlugin
 
 ## 原理
 

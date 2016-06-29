@@ -1,1 +1,1 @@
-# webpack example title here
+# Uglifyjs
