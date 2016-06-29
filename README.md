@@ -1,6 +1,6 @@
 # Webpack Optimize Example
 
-Follow these examples to make your Webpack builds faster 🚀 and files smaller 📄
+Follow these examples to make your Webpack builds faster 🚀 and files smaller 🐜
 
 ## Examples
 
