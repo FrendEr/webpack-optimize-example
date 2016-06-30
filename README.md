@@ -6,6 +6,7 @@ Follow these examples to make your Webpack builds faster 🚀 and files smaller 
 
 * [code-splitting](https://github.com/FrendEr/webpack-optimize-example/tree/master/code-splitting)
 * [dedupeplugin](https://github.com/FrendEr/webpack-optimize-example/tree/master/dedupeplugin)
+* [define-plugin](https://github.com/FrendEr/webpack-optimize-example/tree/master/define-plugin)
 * [dll-bundles](https://github.com/FrendEr/webpack-optimize-example/tree/master/dll-bundles)
 * [externals](https://github.com/FrendEr/webpack-optimize-example/tree/master/externals)
 * [happypack](https://github.com/FrendEr/webpack-optimize-example/tree/master/happypack)
@@ -25,13 +26,13 @@ git clone https://github.com/FrendEr/webpack-optimize-example.git
 * install dependencies
 
 ```
-npm install
+cd ./exmaple && npm install
 ```
 
-* build example
+* run build
 
 ```
-cd /exmaple && npm run build
+npm run build
 ```
 
 ## License
