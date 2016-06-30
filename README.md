@@ -12,6 +12,7 @@ Follow these examples to make your Webpack builds faster 🚀 and files smaller 
 * [happypack](https://github.com/FrendEr/webpack-optimize-example/tree/master/happypack)
 * [no-parse](https://github.com/FrendEr/webpack-optimize-example/tree/master/no-parse)
 * [parallel-webpack](https://github.com/FrendEr/webpack-optimize-example/tree/master/parallel-webpack)
+* [tree-shaking](https://github.com/FrendEr/webpack-optimize-example/tree/master/tree-shaking)
 * [uglifyjs](https://github.com/FrendEr/webpack-optimize-example/tree/master/uglifyjs)
 * [webpack2.0](https://github.com/FrendEr/webpack-optimize-example/tree/master/webpack2.0)
 
