@@ -1,0 +1,334 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "1.13.1",
+  "hash": "abadcc9dccd64f8ebf6f",
+  "time": 697,
+  "publicPath": "",
+  "assetsByChunkName": {
+    "index": "index.js"
+  },
+  "assets": [
+    {
+      "name": "index.js",
+      "size": 2618,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "index"
+      ],
+      "emitted": true
+    }
+  ],
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "extraAsync": false,
+      "size": 974,
+      "names": [
+        "index"
+      ],
+      "files": [
+        "index.js"
+      ],
+      "hash": "d439681b500bd51e2ba7",
+      "parents": [],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/index.js",
+          "name": "./src/index.js",
+          "index": 0,
+          "index2": 3,
+          "size": 194,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 21,
+            "building": 566,
+            "dependencies": 71
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "source": "'use strict';\n\nvar _app = require('./components/app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/app.js",
+          "name": "./src/components/app.js",
+          "index": 1,
+          "index2": 2,
+          "size": 324,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": true,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 389,
+            "building": 239,
+            "dependencies": 36
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "type": "cjs require",
+              "userRequest": "./components/app",
+              "loc": "3:11-38"
+            }
+          ],
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _header = require('./header');\n\nvar _header2 = _interopRequireDefault(_header);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = 'app';\nmodule.exports = exports['default'];"
+        },
+        {
+          "id": 2,
+          "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/header.js",
+          "name": "./src/components/header.js",
+          "index": 2,
+          "index2": 1,
+          "size": 315,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": true,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 386,
+            "building": 257,
+            "dependencies": 15
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 1,
+              "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/app.js",
+              "module": "./src/components/app.js",
+              "moduleName": "./src/components/app.js",
+              "type": "cjs require",
+              "userRequest": "./header",
+              "loc": "7:14-33"
+            }
+          ],
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _nav = require('./nav');\n\nvar _nav2 = _interopRequireDefault(_nav);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = 'header';\nmodule.exports = exports['default'];"
+        },
+        {
+          "id": 3,
+          "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/nav.js",
+          "name": "./src/components/nav.js",
+          "index": 3,
+          "index2": 0,
+          "size": 141,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": true,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "profile": {
+            "factory": 385,
+            "building": 265
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 2,
+              "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/header.js",
+              "module": "./src/components/header.js",
+              "moduleName": "./src/components/header.js",
+              "type": "cjs require",
+              "userRequest": "./nav",
+              "loc": "7:11-27"
+            }
+          ],
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = 'nav';\nmodule.exports = exports['default'];"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "moduleId": 0,
+          "module": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/index.js",
+          "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/index.js",
+          "moduleName": "./src/index.js",
+          "loc": "",
+          "name": "index",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/index.js",
+      "name": "./src/index.js",
+      "index": 0,
+      "index2": 3,
+      "size": 194,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 21,
+        "building": 566,
+        "dependencies": 71
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [],
+      "source": "'use strict';\n\nvar _app = require('./components/app');\n\nvar _app2 = _interopRequireDefault(_app);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }"
+    },
+    {
+      "id": 1,
+      "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/app.js",
+      "name": "./src/components/app.js",
+      "index": 1,
+      "index2": 2,
+      "size": 324,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": true,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 389,
+        "building": 239,
+        "dependencies": 36
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 0,
+          "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "type": "cjs require",
+          "userRequest": "./components/app",
+          "loc": "3:11-38"
+        }
+      ],
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _header = require('./header');\n\nvar _header2 = _interopRequireDefault(_header);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = 'app';\nmodule.exports = exports['default'];"
+    },
+    {
+      "id": 2,
+      "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/header.js",
+      "name": "./src/components/header.js",
+      "index": 2,
+      "index2": 1,
+      "size": 315,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": true,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 386,
+        "building": 257,
+        "dependencies": 15
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 1,
+          "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/app.js",
+          "module": "./src/components/app.js",
+          "moduleName": "./src/components/app.js",
+          "type": "cjs require",
+          "userRequest": "./header",
+          "loc": "7:14-33"
+        }
+      ],
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _nav = require('./nav');\n\nvar _nav2 = _interopRequireDefault(_nav);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = 'header';\nmodule.exports = exports['default'];"
+    },
+    {
+      "id": 3,
+      "identifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/nav.js",
+      "name": "./src/components/nav.js",
+      "index": 3,
+      "index2": 0,
+      "size": 141,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": true,
+      "chunks": [
+        0
+      ],
+      "assets": [],
+      "issuer": null,
+      "profile": {
+        "factory": 385,
+        "building": 265
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 2,
+          "moduleIdentifier": "/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/node_modules/.npminstall/babel-loader/6.2.4/babel-loader/index.js?{\"presets\":[\"react\",\"es2015\",\"stage-0\"],\"plugins\":[\"add-module-exports\"]}!/Users/alibaba/Documents/kaian/github-repo/webpack-optimize-example/prefetch-plugin/src/components/header.js",
+          "module": "./src/components/header.js",
+          "moduleName": "./src/components/header.js",
+          "type": "cjs require",
+          "userRequest": "./nav",
+          "loc": "7:11-27"
+        }
+      ],
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.default = 'nav';\nmodule.exports = exports['default'];"
+    }
+  ],
+  "filteredModules": 0,
+  "children": []
+}

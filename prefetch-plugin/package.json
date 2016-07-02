@@ -1,0 +1,36 @@
+{
+  "name": "webpack-base",
+  "version": "0.0.1",
+  "description": "a webpack base repo",
+  "main": "build/index.js",
+  "scripts": {
+    "clean": "rimraf ./build stat.json",
+    "prebuild": "npm run clean",
+    "build": "webpack --progress --profile --json > stat.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrendEr/webpack-startkit.git"
+  },
+  "author": "FrendEr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrendEr/webpack-startkit/issues"
+  },
+  "homepage": "https://github.com/FrendEr/webpack-startkit#readme",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "rimraf": "^2.5.2",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "lodash": "^4.13.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  }
+}
